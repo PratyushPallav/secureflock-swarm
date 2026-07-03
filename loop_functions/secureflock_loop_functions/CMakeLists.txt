@@ -1,0 +1,5 @@
+add_library(secureflock_loop_functions MODULE
+  secureflock_loop_functions.h secureflock_loop_functions.cpp)
+target_link_libraries(secureflock_loop_functions
+  argos3core_simulator
+  argos3plugin_simulator_footbot)

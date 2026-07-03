@@ -1,0 +1,5 @@
+add_library(footbot_secureflock MODULE footbot_secureflock.h footbot_secureflock.cpp)
+target_link_libraries(footbot_secureflock
+  argos3core_simulator
+  argos3plugin_simulator_footbot
+  argos3plugin_simulator_genericrobot)
