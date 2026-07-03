@@ -1,0 +1,29 @@
+# Build
+build/
+*.o
+*.so
+*.a
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ARGoS runtime output
+*.log
+frame_grabbing/
+scenario_*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Large raw data (keep curated CSVs under data/ tracked; ignore scratch)
+data/scratch/
